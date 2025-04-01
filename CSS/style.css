@@ -1,0 +1,159 @@
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+body {
+    background-color: 	#24262f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: 	#09051e;
+}
+
+header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header > div > img {
+   border-radius: 100%;
+   border: 10px solid #24262f;
+   width: 50%;
+}
+
+.nombre {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: white;
+}
+
+.navbar {
+    background-color: #56d0ae;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    margin: 0 5%;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.navbar h1 {
+    transition: color 0.3s ease, color 0.3s ease;
+}
+
+.navbar h1:hover {
+    color: black;
+    border-radius: 5px;
+}
+
+#yo {
+    padding: 20px;
+}
+
+#Proyectos {
+    padding: 20px;
+    background-color: #515058;
+}
+
+.contenedor {
+    margin: 20px 0px;
+    border: 7px solid black;
+    background-color: #09051e;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contenedor::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(56, 192, 255, 0.7), rgba(0, 0, 0, 0));
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.contenedor:hover {
+    transform: scale(1.02);
+}
+
+.contenedor:hover::after {
+    opacity: 1;
+}
+
+.contenedor img {
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor h1 {
+color: #56d0ae;
+}
+
+.contenedor p {
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+#contacto {
+    background-color: #56d0ae;
+    bottom: 0px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.redirecciones img{
+    width: 50px;
+}
+
+.redirecciones a{
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    padding: 5px 5% 20px 5% ;
+}
+
+.redirecciones a:hover {
+    transform: translateY(-5px);
+}
+
