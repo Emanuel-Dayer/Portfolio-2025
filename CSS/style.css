@@ -10,6 +10,10 @@ img {
     vertical-align: middle;
 }
 
+ol {
+    padding: 0 15px;
+}
+
 a {
     text-decoration: none;
 }
@@ -38,6 +42,7 @@ header {
 header > div{
     display: inline-block;
     vertical-align: middle;
+
 }
 
 header > div > img {
