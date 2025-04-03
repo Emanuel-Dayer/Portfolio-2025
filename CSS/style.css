@@ -53,19 +53,25 @@ header > div > img {
     color: white;
 }
 
+
 .navbar {
-    background-color: #56d0ae;
+    background-color:  #56d0ae;
     position: sticky;
     top: 0;
     z-index: 1000;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 10px 0;
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .navbar a {
     margin: 0 5%;
     transition: color 0.3s ease, background-color 0.3s ease;
+    font-size: 80%;
+    white-space: nowrap;
 }
 
 .navbar a:hover {
