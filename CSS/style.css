@@ -31,7 +31,6 @@ body {
 }
 
 header {
-    background-color: rgb(255, 255, 255);
     text-align: center;
     background-color: 	#09051e;
 }
@@ -52,7 +51,6 @@ header > div > img {
     display: inline-block;
     color: white;
 }
-
 
 .navbar {
     background-color:  #56d0ae;
